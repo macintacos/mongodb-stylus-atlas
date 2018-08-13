@@ -1,0 +1,73 @@
+/* ==UserStyle==
+@name        MongoDB Atlas Theme
+@namespace   github.com/macintacos/mongodb-stylus-atlas
+@version     1.0.0
+@license     unlicense
+==/UserStyle== */
+h1 {
+  color: #13aa52 !important; }
+
+body,
+.mms-body,
+.mms-body-application,
+.site-header,
+.left-nav {
+  background-color: #272b2f !important;
+  color: #e0e7e8 !important; }
+
+.context-switcher-label,
+.left-nav-label {
+  color: #e0e7e8 !important; }
+
+.button.context-switcher-button {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  border-color: #272b2f !important;
+  background: #393d42 !important; }
+  .button.context-switcher-button .context-switcher-button-text {
+    color: #e0e7e8; }
+
+.section-header,
+.section-header-tabs {
+  background-color: #272b2f !important;
+  border-bottom-color: #393d42 !important; }
+
+.section-header-tab {
+  border-bottom-color: #393d42 !important;
+  background-color: #393d42 !important; }
+  .section-header-tab.section-header-tab-is-active {
+    border-bottom-color: #13aa52 !important; }
+
+.timezone-select-control-text,
+.site-header-usage-container,
+.section-controls-search-icon {
+  color: #e0e7e8 !important; }
+
+.site-header-logo-is-atlas {
+  background-image: url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png) !important;
+  background-size: 110px 27px !important; }
+
+a,
+.dropdown-component-button-is-text {
+  color: #13aa52 !important; }
+
+input,
+.section-controls-search-icon {
+  border-radius: 5px !important;
+  border-color: #363a3f !important;
+  background-color: #393d42 !important; }
+
+input,
+.section-controls-search-form {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35); }
+
+.button-is-primary {
+  color: #e0e7e8 !important; }
+
+.breadcrumbs {
+  background: linear-gradient(90deg, #393d42, #272b2f);
+  padding: 5px 0px 5px 5px;
+  margin-bottom: 15px;
+  border-radius: 2px; }
+  .breadcrumbs a,
+  .breadcrumbs span {
+    color: #52df8d !important; }

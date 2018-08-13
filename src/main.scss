@@ -1,0 +1,92 @@
+/* ==UserStyle==
+@name        MongoDB Atlas Theme
+@namespace   github.com/macintacos/mongodb-stylus-atlas
+@version     1.0.0
+@license     unlicense
+==/UserStyle== */
+
+// IMPORTS
+@import "colors";
+h1 {
+    color: $mongodb-green !important;
+}
+
+body,
+.mms-body,
+.mms-body-application,
+.site-header,
+.left-nav {
+    background-color: $main-background-color !important;
+    color: $main-text-color !important;
+}
+
+.context-switcher-label,
+.left-nav-label {
+    color: $main-text-color !important;
+}
+
+.button.context-switcher-button {
+    box-shadow: $sections-shadow;
+    border-color: $main-background-color ! important;
+    background: $section-wrapper-background-color !important;
+    .context-switcher-button-text {
+        color: $main-text-color;
+    }
+}
+
+.section-header,
+.section-header-tabs {
+    background-color: $main-background-color !important;
+    border-bottom-color: $section-wrapper-background-color !important;
+}
+
+.section-header-tab {
+    border-bottom-color: $section-wrapper-background-color !important;
+    background-color: $section-wrapper-background-color !important;
+    &.section-header-tab-is-active {
+        border-bottom-color: $mongodb-green !important;
+    }
+}
+
+.timezone-select-control-text,
+.site-header-usage-container,
+.section-controls-search-icon {
+    color: $main-text-color !important;
+}
+
+.site-header-logo-is-atlas {
+    background-image: url(https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png) !important;
+    background-size: 110px 27px !important;
+}
+
+a,
+.dropdown-component-button-is-text {
+    color: $mongodb-green !important;
+}
+
+input,
+.section-controls-search-icon {
+    border-radius: 5px !important;
+    border-color: $admonition-background-color !important;
+    background-color: $section-wrapper-background-color !important;
+}
+
+input,
+.section-controls-search-form {
+    box-shadow: $sections-shadow;
+}
+
+.button-is-primary {
+    color: $main-text-color !important;
+}
+
+.breadcrumbs {
+    a,
+    span {
+        color: $mongodb-light-green !important;
+    }
+    background: linear-gradient(90deg, $section-wrapper-background-color, $main-background-color);
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 15px;
+    border-radius: 2px
+}
