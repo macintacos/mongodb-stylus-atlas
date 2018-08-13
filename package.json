@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-stylus-atlas",
+  "version": "1.0.0",
+  "description": "A dark theme for the MongoDB Atlas UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://macintacos@github.com/macintacos/mongodb-stylus-atlas.git"
+  },
+  "keywords": [
+    "theme",
+    "mongodb",
+    "atlas"
+  ],
+  "author": "Julian Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macintacos/mongodb-stylus-atlas/issues"
+  },
+  "homepage": "https://github.com/macintacos/mongodb-stylus-atlas#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
