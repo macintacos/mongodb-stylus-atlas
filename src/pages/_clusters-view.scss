@@ -1,0 +1,265 @@
+// General
+
+body,
+.mms-body,
+.mms-body-application,
+.site-header,
+.left-nav,
+.app-footer {
+  background-color: $main-background-color;
+  color: $main-text-color;
+}
+
+// TOP-SPECIFIC
+
+.section-header,
+.section-header-tabs {
+  background-color: $main-background-color;
+  border-bottom-color: $section-wrapper-background-color;
+}
+
+.section-header-tab {
+  background-color: $section-wrapper-background-color;
+  border-bottom-color: $section-wrapper-background-color;
+
+  &.section-header-tab-is-active {
+    border-bottom-color: $mongodb-green;
+    color: $mongodb-green;
+  }
+
+  &:hover {
+    background: $main-background-color;
+    color: $mongodb-light-green;
+  }
+}
+
+.section-header-tab-link {
+  &:hover {
+    color: $mongodb-light-green;
+  }
+}
+
+.site-header-left-tab {
+  color: $mongodb-green;
+}
+
+.site-header-link {
+  color: $mongodb-green;
+}
+
+.timezone-select-control-text,
+.site-header-usage-container,
+.section-controls-search-icon {
+  color: $main-text-color;
+}
+
+.site-header-logo-is-atlas {
+  background-image: url("https://cl.ly/2e2U010X3o12/%255B04b19bb5d75bb2a5b643b12eeb0805ab%255D_mongodb-logo-white-atlas.png");
+  background-size: 150px 27px;
+  color: $main-text-color;
+}
+
+.button-is-primary {
+  color: $main-text-color;
+}
+
+a,
+.dropdown-component-button-is-text {
+  color: $mongodb-green;
+}
+
+.dropdown-menu {
+  background-color: $main-background-color;
+  color: $main-text-color;
+
+  > li > a {
+    color: $main-text-color;
+  }
+
+  &.divider {
+    background-color: $dark-border-color;
+  }
+}
+
+.button {
+  &:hover,
+  &:active,
+  &:focus {
+    &:not([disabled]) {
+      &:not(.button-is-disabled) {
+        background: linear-gradient(
+          90deg,
+          $section-wrapper-background-color,
+          $main-background-color
+        );
+        border-color: $section-wrapper-background-color;
+        box-shadow: $sections-shadow;
+        color: $mongodb-light-green;
+      }
+    }
+  }
+
+  &.context-switcher-button {
+    background: $section-wrapper-background-color;
+    border-color: $main-background-color;
+    box-shadow: $sections-shadow;
+
+    .context-switcher-button-text {
+      color: $main-text-color;
+    }
+  }
+}
+
+form > input,
+.section-controls-search-icon {
+  background-color: $section-wrapper-background-color;
+}
+
+.section-controls-search-input {
+  border-color: $dark-border-color;
+  border-radius: 5px;
+  box-shadow: $sections-shadow;
+}
+
+.breadcrumbs {
+  background: linear-gradient(
+    90deg,
+    $section-wrapper-background-color,
+    $main-background-color
+  );
+  border-radius: 2px;
+  margin-bottom: 15px;
+  padding: 5px 0 5px 5px;
+
+  a,
+  span {
+    color: $mongodb-light-green;
+  }
+}
+
+// LEFT-NAV
+
+.context-switcher-label,
+.left-nav-label {
+  color: $main-text-color;
+}
+
+.left-nav-link {
+  color: $mongodb-green;
+
+  &:hover {
+    color: $mongodb-light-green;
+  }
+}
+
+.context-switcher-dropdown-container {
+  background: $section-wrapper-background-color;
+  color: $main-text-color;
+}
+
+.context-switcher-input,
+.context-switcher-input-container {
+  background: $section-wrapper-background-color;
+  border-bottom-color: $dark-border-color;
+}
+
+.context-switcher-option-row,
+.context-switcher-option-row-text-is-org {
+  background: $section-wrapper-background-color;
+}
+
+// CLUSTER CARDS
+
+.cluster-detail-content {
+  background: $section-wrapper-background-color;
+  border-color: $dark-border-color;
+  box-shadow: $sections-shadow;
+
+  &:hover {
+    border-color: $section-wrapper-background-color;
+    box-shadow: $sections-shadow;
+  }
+}
+
+.cluster-info-panel-buttons {
+  .button {
+    background: $section-wrapper-background-color;
+    border-color: $dark-border-color;
+    box-shadow: $sections-shadow;
+    color: $main-text-color;
+  }
+}
+
+.cluster-detail-sparklines {
+  background: $admonition-background-color;
+}
+
+.link,
+.cluster-detail-hostname {
+  color: $cluster-link-blue-color;
+}
+
+.cluster-info-panel-stat-label {
+  color: $main-text-color;
+}
+
+g {
+  .tick > line {
+    stroke: $subtext-color;
+  }
+}
+
+.nds-sparkline {
+  border-color: $dark-border-color;
+  box-shadow: $sections-shadow;
+}
+
+.nds-sparkline,
+.nds-sparkline-is-inactive {
+  background: $chart-background-color;
+  color: $main-text-color;
+  stroke: $sub-text-result-color !important;
+
+  &:hover {
+    &:not(.nds-sparkline-is-placeholder) {
+      border-color: $dark-border-color;
+      box-shadow: $sections-shadow;
+    }
+  }
+
+  &.nds-sparkline-guideline {
+    stroke: $subtext-color !important;
+  }
+}
+
+.nds-sparkline-placeholder-wrapper {
+  background: $chart-background-color;
+  color: $main-text-color;
+  stroke: $sub-text-result-color !important;
+}
+
+.nds-sparkline-legend-label,
+.nds-sparkline-legend-value,
+.nds-sparkline-label-max,
+text {
+  color: $main-text-color !important;
+  fill: $main-text-color;
+  outline-color: $main-text-color;
+  padding-left: 2px;
+  stroke: $main-text-color;
+}
+
+path {
+  &.nds-sparkline-line {
+    &.r,
+    &.w {
+      stroke: $subtext-color;
+    }
+  }
+}
+
+// FOOTER
+
+.app-footer {
+  border-top-color: $section-wrapper-background-color;
+}

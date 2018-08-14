@@ -24,6 +24,9 @@
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-sass": "^4.0.1",
-    "lodash": "^4.17.10"
-  }
+    "gulp-sass-lint": "^1.4.0",
+    "lodash": "^4.17.10",
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {}
 }
