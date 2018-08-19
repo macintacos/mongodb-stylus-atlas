@@ -68,16 +68,44 @@ a,
   color: $mongodb-green;
 }
 
-.dropdown-menu {
+.dropdown-component-option {
+  > a {
+    &:hover {
+      background: $section-wrapper-background-color;
+    }
+  }
+}
+
+.dropdown-menu,
+.dropdown-submenu {
   background-color: $main-background-color;
   color: $main-text-color;
 
+  > a {
+    &:focus,
+    &:hover {
+      background: $section-wrapper-background-color;
+    }
+  }
+
   > li > a {
     color: $main-text-color;
+
+    &:focus,
+    &:hover {
+      color: $main-text-color;
+      background: $section-wrapper-background-color;
+    }
   }
 
   &.divider {
     background-color: $dark-border-color;
+  }
+}
+
+.cluster-options-menu-dropdown-divider {
+  &.divider {
+    background: $section-wrapper-background-color;
   }
 }
 
