@@ -1,0 +1,13 @@
+// MIXINS
+
+@mixin apply-dropdown-change {
+  // This function modifies dropdown field changes so that they all maintain the same look and feel.
+  background: linear-gradient(
+    90deg,
+    $section-wrapper-background-color,
+    $main-background-color
+  );
+  border-color: $section-wrapper-background-color;
+  box-shadow: $sections-shadow;
+  color: $mongodb-light-green;
+}

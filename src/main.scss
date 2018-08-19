@@ -3,8 +3,13 @@
 // DEFINITIONS
 @import "definitions/colors";
 @import "definitions/typography";
+@import "definitions/mixins";
 
-// DEFINITIONS
+// PAGES
 @import "pages/clusters-view";
+@import "pages/metrics-view";
+@import "pages/security-view";
+@import "pages/command-line-tools-view";
+@import "pages/entire-alerts-view";
 
 // MAIN

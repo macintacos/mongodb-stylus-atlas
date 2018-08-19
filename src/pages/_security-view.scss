@@ -1,0 +1,101 @@
+// MONGODB USERS
+
+.section-subtabs {
+  border-bottom-color: $dark-border-color;
+}
+
+.mongodb-users-table-column-header {
+  color: $subtext-color;
+
+  &:not(:last-child) {
+    &::after {
+      border-right: 1px solid $dark-border-color;
+    }
+  }
+}
+
+.plain-table-row,
+.plain-table-header-row,
+.mongodb-users-table-row,
+.mongodb-users-table-header-row {
+  border-color: $dark-border-color;
+}
+
+.button-is-xs {
+  @include apply-dropdown-change;
+}
+
+.button[disabled] {
+  @include apply-dropdown-change;
+  color: $subtext-color;
+}
+
+// IP WHITELIST
+
+.bem-alert-is-warning,
+.alert-warning {
+  background: $alert-warning-background;
+  border-color: $dark-border-color;
+  border-radius: 5px;
+  box-shadow: $sections-shadow;
+  color: $alert-warning-text;
+}
+
+.plain-table-column-header {
+  color: $subtext-color;
+
+  &::after {
+    border-color: $dark-border-color;
+  }
+}
+
+// VPC PEERING
+
+.plain-table-row-is-hoverable {
+  &:hover {
+    background: $section-wrapper-background-color;
+  }
+}
+
+// ENTERPRISE
+
+.nds-enterprise-security-setting-description {
+  color: $subtext-color;
+}
+
+.items-list-row-container {
+  border-color: $dark-border-color;
+}
+
+.nds-enterprise-security-form-top-border,
+.nds-enterprise-security-form-submit,
+.nds-enterprise-security-form {
+  background: $section-wrapper-background-color;
+  border-color: $dark-border-color;
+}
+
+.nds-enterprise-security-form-divider {
+  border-color: $dark-border-color;
+  color: $dark-border-color;
+}
+
+.nds-enterprise-security-form-input {
+  border-color: $main-background-color;
+  border-radius: 5px;
+}
+
+.nds-enterprise-security-form-input-list-selector {
+  background: $section-wrapper-background-color;
+}
+
+.nds-enterprise-security-form-input input {
+  &.nds-enterprise-security-form-input-search-field {
+    background: linear-gradient(
+      90deg,
+      $section-wrapper-background-color,
+      $main-background-color
+    );
+    border-color: $section-wrapper-background-color;
+    color: $mongodb-light-green;
+  }
+}

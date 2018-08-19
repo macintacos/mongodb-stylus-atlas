@@ -93,8 +93,8 @@ a,
 
     &:focus,
     &:hover {
-      color: $main-text-color;
       background: $section-wrapper-background-color;
+      color: $main-text-color;
     }
   }
 
@@ -115,14 +115,7 @@ a,
   &:focus {
     &:not([disabled]) {
       &:not(.button-is-disabled) {
-        background: linear-gradient(
-          90deg,
-          $section-wrapper-background-color,
-          $main-background-color
-        );
-        border-color: $section-wrapper-background-color;
-        box-shadow: $sections-shadow;
-        color: $mongodb-light-green;
+        @include apply-dropdown-change;
       }
     }
   }
@@ -177,7 +170,7 @@ form > input,
 }
 
 .left-nav-link {
-  color: $main-text-color;
+  color: $subtext-color;
 
   &.active {
     color: $mongodb-green;

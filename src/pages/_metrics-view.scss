@@ -1,0 +1,76 @@
+#hostCarouselRegion {
+  background-color: $main-background-color;
+  position: sticky;
+  top: 60px;
+  z-index: 1000;
+
+  > div {
+    &.hosts-carousel {
+      border-top: 1px solid $dark-border-color;
+
+      > .carousel-item {
+        border-left: 1px solid $dark-border-color;
+      }
+    }
+  }
+}
+
+.section-controls-dropdown {
+  @include apply-dropdown-change;
+}
+
+button {
+  &.dropdown-toggle {
+    @include apply-dropdown-change;
+  }
+}
+
+.dropdown-menu {
+  z-index: 1051;
+
+  > .divider {
+    background: $dark-border-color;
+  }
+}
+
+.datetime-picker-input {
+  //background: linear-gradient(
+  //  90deg,
+  //  $section-wrapper-background-color,
+  //  $main-background-color
+  //);
+  //border-color: $section-wrapper-background-color;
+  @include apply-dropdown-change;
+  border-radius: 5px;
+  border-style: none;
+  padding-bottom: 4px;
+  padding-top: 3px;
+}
+
+.datetime-picker-timepicker {
+  background-color: $main-background-color;
+  border: 1px solid $dark-border-color;
+  color: $main-text-color;
+  z-index: 1060;
+}
+
+.datetime-picker-timeoption {
+  &:hover,
+  &:focus {
+    background: $section-wrapper-background-color;
+    color: $main-text-color;
+  }
+}
+
+.section-controls-label-is-accented {
+  color: $mongodb-green;
+}
+
+.mms-icon-primary,
+.mms-icon-secondary {
+  color: $main-text-color;
+}
+
+.metric-toggle-group-header {
+  color: $main-text-color;
+}

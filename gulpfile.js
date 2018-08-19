@@ -23,6 +23,12 @@
             "no-important": 0,
             "no-url-domains": 0,
             "no-url-protocols": 0,
+            "no-ids": 0,
+            "force-attribute-nesting": 0,
+            "force-element-nesting": 0,
+            "force-pseudo-nesting": 0,
+            "class-name-format": 0,
+            "no-qualifying-elements": 0,
             indentation: 0,
             quotes: 0
           }
