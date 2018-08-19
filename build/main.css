@@ -86,6 +86,8 @@ form > input,
   border-color: #424950;
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35); }
+  .section-controls-search-input:focus {
+    background: #393d42; }
 
 .breadcrumbs {
   background: linear-gradient(90deg, #393d42, #272b2f);
@@ -101,7 +103,9 @@ form > input,
   color: #e0e7e8; }
 
 .left-nav-link {
-  color: #13aa52; }
+  color: #e0e7e8; }
+  .left-nav-link.active {
+    color: #13aa52; }
   .left-nav-link:hover {
     color: #52df8d; }
 

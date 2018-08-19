@@ -119,6 +119,10 @@ form > input,
   border-color: $dark-border-color;
   border-radius: 5px;
   box-shadow: $sections-shadow;
+
+  &:focus {
+    background: $section-wrapper-background-color;
+  }
 }
 
 .breadcrumbs {
@@ -145,7 +149,11 @@ form > input,
 }
 
 .left-nav-link {
-  color: $mongodb-green;
+  color: $main-text-color;
+
+  &.active {
+    color: $mongodb-green;
+  }
 
   &:hover {
     color: $mongodb-light-green;
