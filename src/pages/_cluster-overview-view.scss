@@ -1,0 +1,43 @@
+.cluster-detail-details {
+  background: $main-background-color;
+}
+
+li.cluster-child {
+  @include apply-dropdown-change;
+}
+
+.cluster-detail-sparklines-is-white {
+  border-radius: 7px;
+  box-shadow: $sections-shadow;
+
+  .nds-sparkline {
+    &:not(.nds-sparkline-is-placeholder) {
+      border: 1px solid $main-background-color;
+      box-shadow: $sections-shadow;
+    }
+  }
+}
+
+.cluster-child-status-text {
+  color: $main-text-color;
+}
+
+.cluster-child {
+  .cluster-child-name {
+    a {
+      color: $main-text-color;
+    }
+  }
+}
+
+i[class^="mms-icon-"] {
+  color: $subtext-color;
+}
+
+.cluster-detail-backup-is-active {
+  color: $subtext-color;
+}
+
+.cluster-detail-header-divider {
+  background-color: $section-wrapper-background-color;
+}
