@@ -447,6 +447,15 @@ i[class^="mms-icon-"] {
 .nested-list-parent-link,
 .nested-list-child-link {
   color: #e0e7e8; }
+  .nested-list-parent-link:hover,
+  .nested-list-child-link:hover {
+    color: #52df8d; }
+
+.nested-list-parent-entry:hover .nested-list-delete-icon,
+.nested-list-parent-entry:hover .nested-list-delete-collection-icon,
+.nested-list-child-entry:hover .nested-list-delete-icon,
+.nested-list-child-entry:hover .nested-list-delete-collection-icon {
+  background-color: #272b2f; }
 
 .nested-list-parent-link-is-selected {
   color: #13aa52; }

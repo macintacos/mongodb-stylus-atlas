@@ -1,6 +1,20 @@
 .nested-list-parent-link,
 .nested-list-child-link {
   color: $main-text-color;
+
+  &:hover {
+    color: $mongodb-light-green;
+  }
+}
+
+.nested-list-parent-entry,
+.nested-list-child-entry {
+  &:hover {
+    .nested-list-delete-icon,
+    .nested-list-delete-collection-icon {
+      background-color: $main-background-color;
+    }
+  }
 }
 
 .nested-list-parent-link-is-selected {
