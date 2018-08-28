@@ -41,3 +41,10 @@ i[class^="mms-icon-"] {
 .cluster-detail-header-divider {
   background-color: $section-wrapper-background-color;
 }
+
+.section-header-tab-is-right {
+  border-radius: 0 7px 0 0;
+}
+.section-header-tab-is-left {
+  border-radius: 7px 0 0 0;
+}

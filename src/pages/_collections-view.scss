@@ -20,3 +20,23 @@
 .nested-list-parent-link-is-selected {
   color: $mongodb-green;
 }
+
+button {
+  &.data-explorer-navigation-button {
+    &.button {
+      &.button-is-small {
+        @include apply-dropdown-change;
+      }
+    }
+  }
+}
+
+.data-explorer-navigation-filter {
+  background: $section-wrapper-background-color;
+  border-radius: 7px;
+  box-shadow: $sections-shadow;
+}
+
+.data-explorer-navigation-filter-input {
+  background: $section-wrapper-background-color;
+}
