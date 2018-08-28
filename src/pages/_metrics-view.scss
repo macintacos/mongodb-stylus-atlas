@@ -2,7 +2,7 @@
   background-color: $main-background-color;
   position: sticky;
   top: 60px;
-  z-index: 1000;
+  z-index: 950;
 
   > div {
     &.hosts-carousel {
@@ -73,4 +73,12 @@ button {
 
 .metric-toggle-group-header {
   color: $main-text-color;
+}
+
+.hostnameTrunc {
+  color: $main-text-color;
+}
+
+.hostPortTrunc {
+  color: $subtext-color;
 }

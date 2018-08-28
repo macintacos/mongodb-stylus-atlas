@@ -184,6 +184,7 @@ form > input,
 .context-switcher-dropdown-container {
   background: $section-wrapper-background-color;
   color: $main-text-color;
+  z-index: 1061;
 }
 
 .context-switcher-input,

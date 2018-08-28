@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://cloud.mongodb.com") {
+@-moz-document domain("cloud.mongodb.com") {
   h1,
   h2,
   h3,
@@ -9,6 +9,7 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
+    font-weight: 500;
   }
 
   body,
@@ -157,7 +158,7 @@
   }
 
   .left-nav-link {
-    color: #9fa1a2;
+    color: #e0e7e8;
   }
   .left-nav-link.active {
     color: #13aa52;
@@ -169,6 +170,7 @@
   .context-switcher-dropdown-container {
     background: #393d42;
     color: #e0e7e8;
+    z-index: 1061;
   }
 
   .context-switcher-input,
@@ -205,7 +207,7 @@
 
   .link,
   .cluster-detail-hostname {
-    color: #0595e4;
+    color: #05afff;
   }
 
   .cluster-info-panel-stat-label {
@@ -267,7 +269,7 @@
     background-color: #272b2f;
     position: sticky;
     top: 60px;
-    z-index: 1000;
+    z-index: 950;
   }
   #hostCarouselRegion > div.hosts-carousel {
     border-top: 1px solid #424950;
@@ -332,6 +334,14 @@
 
   .metric-toggle-group-header {
     color: #e0e7e8;
+  }
+
+  .hostnameTrunc {
+    color: #e0e7e8;
+  }
+
+  .hostPortTrunc {
+    color: #9fa1a2;
   }
 
   .section-subtabs {
@@ -447,7 +457,15 @@
   .table.table-new tfoot tr th,
   .table.table-new thead tr th {
     border-color: #424950 !important;
-    color: #9fa1a2;
+    color: #e0e7e8;
+  }
+
+  .table > thead:first-child > tr:first-child > th {
+    background: #272b2f;
+    border-bottom-color: inset 2px 4px 0 rgba(0, 0, 0, 0.35);
+    position: sticky;
+    top: 60px;
+    z-index: 10;
   }
 
   .activityContent table.table-new tr td {
@@ -489,5 +507,66 @@
 
   .activityContent .event td .diff-preview span:not(.comment) {
     color: #9fa1a2;
+  }
+
+  thead tr:nth-child(1) th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .cluster-detail-details {
+    background: #272b2f;
+  }
+
+  li.cluster-child {
+    background: linear-gradient(90deg, #393d42, #272b2f);
+    border-color: #393d42;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+    color: #52df8d;
+  }
+
+  .cluster-detail-sparklines-is-white {
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  }
+  .cluster-detail-sparklines-is-white
+    .nds-sparkline:not(.nds-sparkline-is-placeholder) {
+    border: 1px solid #272b2f;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  }
+
+  .cluster-child-status-text {
+    color: #e0e7e8;
+  }
+
+  .cluster-child .cluster-child-name a {
+    color: #e0e7e8;
+  }
+
+  i[class^="mms-icon-"] {
+    color: #9fa1a2;
+  }
+
+  .cluster-detail-backup-is-active {
+    color: #9fa1a2;
+  }
+
+  .cluster-detail-header-divider {
+    background-color: #393d42;
+  }
+
+  .section-controls-timestamp {
+    background: #393d42;
+    color: #e0e7e8;
+  }
+
+  .nested-list-parent-link,
+  .nested-list-child-link {
+    color: #e0e7e8;
+  }
+
+  .nested-list-parent-link-is-selected {
+    color: #13aa52;
   }
 }

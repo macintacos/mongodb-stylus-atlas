@@ -21,7 +21,15 @@
 .table.table-new tfoot tr th,
 .table.table-new thead tr th {
   border-color: $dark-border-color !important;
-  color: $subtext-color;
+  color: $main-text-color;
+}
+
+.table > thead:first-child > tr:first-child > th {
+  background: $main-background-color;
+  border-bottom-color: $inset-sections-shadow;
+  position: sticky;
+  top: 60px;
+  z-index: 10;
 }
 
 .activityContent table.table-new tr td {
@@ -68,3 +76,8 @@
 }
 
 // Alert Settings
+thead tr:nth-child(1) th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
