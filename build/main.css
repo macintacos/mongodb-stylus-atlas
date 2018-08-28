@@ -158,7 +158,7 @@ form > input,
   color: #e0e7e8; }
 
 .cluster-detail-sparklines {
-  background: #363a3f; }
+  background: #343c46; }
 
 .link,
 .cluster-detail-hostname {
@@ -452,7 +452,7 @@ i[class^="mms-icon-"] {
   border-radius: 0 7px 0 0; }
 
 .section-header-tab-is-left {
-  border-radius: 7px 0 0 0; }
+  border-radius: 7px 0 0; }
 
 .section-controls-timestamp {
   background: #343c46;
