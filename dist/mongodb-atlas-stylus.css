@@ -203,7 +203,7 @@
   }
 
   .cluster-detail-sparklines {
-    background: #363a3f;
+    background: #343c46;
   }
 
   .link,
@@ -346,6 +346,10 @@
 
   .hostPortTrunc {
     color: #9fa1a2;
+  }
+
+  #darkCharts .charts-row-outer-container {
+    background: #343c46;
   }
 
   .section-subtabs {
@@ -569,7 +573,7 @@
   }
 
   .section-header-tab-is-left {
-    border-radius: 7px 0 0 0;
+    border-radius: 7px 0 0;
   }
 
   .section-controls-timestamp {

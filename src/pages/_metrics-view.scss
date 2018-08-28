@@ -82,3 +82,9 @@ button {
 .hostPortTrunc {
   color: $subtext-color;
 }
+
+#darkCharts {
+  .charts-row-outer-container {
+    background: $section-wrapper-background-color;
+  }
+}

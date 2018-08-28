@@ -274,6 +274,9 @@ button.dropdown-toggle {
 .hostPortTrunc {
   color: #9fa1a2; }
 
+#darkCharts .charts-row-outer-container {
+  background: #343c46; }
+
 .section-subtabs {
   border-bottom-color: #424950; }
 
