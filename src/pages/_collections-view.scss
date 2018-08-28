@@ -40,3 +40,61 @@ button {
 .data-explorer-navigation-filter-input {
   background: $section-wrapper-background-color;
 }
+
+.data-explorer-results {
+  background: $section-wrapper-background-color;
+  border-radius: 7px;
+  box-shadow: $sections-shadow;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.data-explorer-subheader-find {
+  background: $section-wrapper-background-color;
+  border-radius: 7px;
+  box-shadow: $sections-shadow;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+input {
+  &.data-explorer-subheader-search-input {
+    background: $main-background-color;
+    border-color: $dark-border-color;
+    box-shadow: $sections-shadow;
+  }
+}
+
+.data-explorer-subheader-filter-label {
+  background: $cluster-link-blue-color;
+}
+
+.data-explorer-results-card {
+  background: $main-background-color;
+  border-radius: 7px;
+  box-shadow: $sections-shadow;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.element-value-is-string {
+  color: $cluster-link-blue-color;
+}
+
+.element-value-is-int32,
+.element-value-is-double {
+  color: $mongodb-light-green;
+}
+
+.element-value-is-boolean {
+  color: $my-lilac;
+}
+
+.element-value-is-date {
+  color: $alert-warning-background;
+}
+
+.document-footer-is-viewing {
+  background: $dark-border-color;
+  border-radius: 0 0 7px 7px;
+}

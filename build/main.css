@@ -488,3 +488,49 @@ button.data-explorer-navigation-button.button.button-is-small {
 
 .data-explorer-navigation-filter-input {
   background: #343c46; }
+
+.data-explorer-results {
+  background: #343c46;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  margin-bottom: 30px;
+  margin-top: 15px; }
+
+.data-explorer-subheader-find {
+  background: #343c46;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  margin-bottom: 30px;
+  margin-top: 15px; }
+
+input.data-explorer-subheader-search-input {
+  background: #272b2f;
+  border-color: #424950;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35); }
+
+.data-explorer-subheader-filter-label {
+  background: #05afff; }
+
+.data-explorer-results-card {
+  background: #272b2f;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  margin-bottom: 30px;
+  margin-top: 15px; }
+
+.element-value-is-string {
+  color: #05afff; }
+
+.element-value-is-int32,
+.element-value-is-double {
+  color: #52df8d; }
+
+.element-value-is-boolean {
+  color: #ddb3d2; }
+
+.element-value-is-date {
+  color: #d9a252; }
+
+.document-footer-is-viewing {
+  background: #424950;
+  border-radius: 0 0 7px 7px; }
