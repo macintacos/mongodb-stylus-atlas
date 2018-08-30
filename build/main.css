@@ -276,6 +276,8 @@ button.dropdown-toggle {
 
 #darkCharts .charts-row-outer-container {
   background: #343c46; }
+  #darkCharts .charts-row-outer-container:hover {
+    background: #262e35; }
 
 .section-subtabs {
   border-bottom-color: #424950; }
@@ -377,7 +379,7 @@ button.dropdown-toggle {
   background: #262e35;
   border-bottom-color: inset 2px 4px 0 rgba(0, 0, 0, 0.35);
   position: sticky;
-  top: 60px;
+  top: 0;
   z-index: 10; }
 
 .activityContent table.table-new tr td {
