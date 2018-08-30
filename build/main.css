@@ -486,6 +486,13 @@ button.data-explorer-navigation-button.button.button-is-small {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
   color: #52df8d; }
 
+button.data-explorer-index-action-button {
+  background: linear-gradient(90deg, #343c46, #262e35);
+  border-color: #343c46;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  color: #52df8d; }
+
 .data-explorer-navigation-filter {
   background: #343c46;
   border-radius: 7px;
@@ -539,3 +546,11 @@ input.data-explorer-subheader-search-input {
 .document-footer-is-viewing {
   background: #424950;
   border-radius: 0 0 7px 7px; }
+
+.data-explorer-index-expanding-cell {
+  padding-bottom: 100px; }
+  .data-explorer-index-expanding-cell > .data-explorer-index-expanding-content {
+    background: #262e35;
+    margin-bottom: 3px; }
+    .data-explorer-index-expanding-cell > .data-explorer-index-expanding-content > .data-explorer-index-name {
+      color: #e0e7e8; }

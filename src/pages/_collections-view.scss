@@ -29,6 +29,10 @@ button {
       }
     }
   }
+
+  &.data-explorer-index-action-button {
+    @include apply-dropdown-change;
+  }
 }
 
 .data-explorer-navigation-filter {
@@ -97,4 +101,18 @@ input {
 .document-footer-is-viewing {
   background: $dark-border-color;
   border-radius: 0 0 7px 7px;
+}
+
+// INDEX VIEW
+.data-explorer-index-expanding-cell {
+  padding-bottom: 100px;
+
+  > .data-explorer-index-expanding-content {
+    background: $main-background-color;
+    margin-bottom: 3px;
+
+    > .data-explorer-index-name {
+      color: $main-text-color;
+    }
+  }
 }
