@@ -10,5 +10,9 @@
   border-color: $section-wrapper-background-color;
   border-radius: 7px;
   box-shadow: $sections-shadow;
-  color: $mongodb-light-green;
+  color: $main-text-color;
+
+  &:hover {
+    color: $cluster-link-blue-color;
+  }
 }
